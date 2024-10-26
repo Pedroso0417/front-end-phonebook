@@ -1,0 +1,51 @@
+.form {
+  width: 300px;
+  margin: 40px auto;
+
+  @media (min-width: 758px) {
+    width: 400px;
+  }
+}
+
+.saveButton {
+  width: 150px;
+  background: var(--PRIMARY);
+  margin: 30px auto 0;
+}
+
+.saveButton:hover {
+  background: var(--SECONDARY);
+}
+
+.saveButton.disabled {
+  background: var(--DISABLED);
+  cursor: not-allowed;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}
+
+.verifyEmailButton {
+  background-color: var(--PRIMARY);
+  color: var(--LIGHT);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.verifyEmailButton:hover {
+  background-color: var(--SECONDARY);
+}
+
+.verifiedMessage {
+  position: relative;
+  top: -40px;
+  left: 0;
+  font-size: 12px;
+  color: green;
+  font-weight: bold;
+}

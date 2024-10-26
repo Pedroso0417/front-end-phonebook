@@ -1,0 +1,14 @@
+.editButton {
+  width: 150px;
+  background-color: var(--PRIMARY);
+  margin: 0 auto;
+}
+
+.editButton:hover {
+  background-color: var(--SECONDARY);
+}
+
+.editButton.disabled {
+  background-color: var(--DISABLED);
+  cursor: not-allowed;
+}
